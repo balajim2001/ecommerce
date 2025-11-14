@@ -1,0 +1,61 @@
+:root {
+    --bg-primary: #0F172A;
+    --bg-secondary: #1a1f2e;
+    --bg-tertiary: #252d3d;
+    --text-primary: #ffffff;
+    --text-secondary: #a0aec0;
+    --text-muted: #718096;
+    --border-color: #2d3748;
+    --accent-blue: #3b82f6;
+    --accent-blue-hover: #2563eb;
+    --sidebar-width: 260px;
+    --header-height: 70px;
+    --heading: #94A3B8;
+
+    --White: #1E293B;
+    --Input: #324055;
+    --Body-Text: #FFFFFF;
+    --Note: #95989D;
+    --Stroke: #283548;
+    --bg-table: #28354852;
+    --bg-table-1: #28354852;
+    --hv-item: #ffffff24;
+}
+
+.light {
+    --bg-primary: #F2F7FB;
+    --bg-secondary: #ffffff;
+    --bg-tertiary: #edf2f7;
+    --text-primary: #1a202c;
+    --text-secondary: #4a5568;
+    --text-muted: #718096;
+    --border-color: #e2e8f0;
+    --heading: #111;
+
+    --Main: #2275fc;
+    --White: #fff;
+    --Black: #111;
+    --Heading: #111;
+    --Body-Text: #575864;
+    --22-c-55-e: #22C55E;
+    --Style: #FF5200;
+    --Palette-Green-500: #22C55E;
+    --Palette-Blue-Gray-300: #CBD5E1;
+    --Palette-Blue-Gray-200: #E2E8F0;
+    --Palette-Blue-300: #93C5FD;
+    --Palette-Blue-200: #BFDBFE;
+    --Palette-Orange-400: #FB923C;
+    --Palette-Red-400: #F87171;
+    --Palette-Red-500: #EF4444;
+    --Input: #ECF0F4;
+    --Icon: #CBD5E1;
+    --Note: #95989D;
+    --Text-Holder: #858B93;
+    --08091-b: #08091B;
+    --Stroke: #ECF0F4;
+    --bg-table: #f6f8fbcc;
+    --bg-table-1: #F7FAFC;
+
+    --backdrop: #F2F7FB;
+    --hv-item: #EDF1F5;
+}

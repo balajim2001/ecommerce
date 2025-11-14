@@ -34,19 +34,19 @@ const AddNewUser = () => {
   };
 
   return (
-    <div className="add-new-user">
-      <div className="page-header">
-        <h1 className="page-title">Add New User</h1>
-        <div className="breadcrumb">
-          <span>Dashboard</span>
-          <span className="separator">›</span>
-          <span>User</span>
-          <span className="separator">›</span>
-          <span className="current">Add New User</span>
+    <div className="contianer m-auto">
+      <div className="mb-8 flex items-center justify-between">
+        <h3 className="text-3xl font-bold text-(--text-primary) mb-2 max-md:text-2xl">Add New User</h3>
+        <div className="flex items-center gap-2 text-xs text-(--text-muted)">
+          <span className='text-(--Body-Text) hover:text-(--Main) cursor-pointer'>Dashboard</span>
+          <span>›</span>
+          <span className='text-(--Body-Text) hover:text-(--Main) cursor-pointer'>User</span>
+          <span>›</span>
+          <span>Add New User</span>
         </div>
       </div>
 
-      <form onSubmit={handleSubmit} className="user-form">
+      <form onSubmit={handleSubmit} className="bg-(--bg-secondary) rounded-md">
         <div className="form-section">
           <h2 className="section-title">Account</h2>
           <p className="section-description">Fill in the information below to add a new account</p>
